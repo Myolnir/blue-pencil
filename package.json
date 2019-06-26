@@ -20,7 +20,7 @@
       "email": "angel.muelas@gmail.com"
     }
   ],
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/myolnir/blue-pencil.git"
@@ -34,7 +34,8 @@
     "jest": "^24.8.0",
     "jest-html-reporter": "^2.5.0",
     "jsdoc": "^3.6.2",
-    "jsdoc-to-markdown": "^5.0.0"
+    "jsdoc-to-markdown": "^5.0.0",
+    "rimraf": "^2.6.3"
   },
   "scripts": {
     "test": "jest -c ./tests/unit.config.json --coverage",
