@@ -1,0 +1,31 @@
+{
+  "name": "blue-pencil",
+  "version": "1.0.0",
+  "description": "Library to censor some given words in a given json",
+  "keywords": [
+    "censor",
+    "censorship",
+    "replace",
+    "search and replace",
+    "blue-pencil",
+    "words"
+  ],
+  "author": "Angel Muelas Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "flat": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-plugin-jest": "^22.7.1",
+    "jsdoc": "^3.6.2",
+    "jsdoc-to-markdown": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./lib/blue-pencil",
+  "engines": {
+    "node": ">=8"
+  }
+}
