@@ -1,7 +1,7 @@
 module.exports = {
   collectCoverageFrom: [
-    'server/**/*.js',
-    '!server/config/**/**',
+    '**/*.js',
+    '!**/**',
   ],
   coverageThreshold: {
     global: {
@@ -27,5 +27,5 @@ module.exports = {
   moduleDirectories: [
     'node_modules',
   ],
-  testRegex: '\\.(unit|func)\\.js$',
+  testRegex: '\\.(test|func)\\.js$',
 };

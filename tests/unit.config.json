@@ -2,7 +2,7 @@
   "rootDir": "../",
   "collectCoverageFrom": [
     "lib/**/*.js",
-    "!lib/**/*.unit.js",
+    "!lib/**/*.test.js",
     "!lib/index.js"
   ],
   "coverageThreshold": {
@@ -17,5 +17,5 @@
   "moduleDirectories": [
     "node_modules"
   ],
-  "testRegex": "tests/.*\\.unit\\.js$"
+  "testRegex": "tests/.*\\.test\\.js$"
 }
