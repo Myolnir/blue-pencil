@@ -8,10 +8,23 @@
     "replace",
     "search and replace",
     "blue-pencil",
-    "words"
+    "words",
+    "regular expresion",
+    "regex",
+    "confidenciality"
   ],
   "author": "Angel Muelas Martinez",
+  "contributors": [
+    {
+      "name": "Angel Muelas Martinez",
+      "email": "angel.muelas@gmail.com"
+    }
+  ],
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myolnir/blue-pencil.git"
+  },
   "dependencies": {
     "flat": "^4.1.0"
   },
@@ -22,7 +35,10 @@
     "jsdoc-to-markdown": "^5.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest -c ./tests/unit.config.json --coverage",
+    "test:watch": "jest -c ./tests/unit.config.json --watchAll",
+    "lint": "eslint --ext .js,lib --ignore-path .gitignore .",
+    "lint:fix": "eslint --ext .js,lib --ignore-path .gitignore . --fix"
   },
   "main": "./lib/blue-pencil",
   "engines": {
