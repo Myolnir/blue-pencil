@@ -29,6 +29,7 @@
     "flat": "^4.1.0"
   },
   "devDependencies": {
+    "coveralls": "^3.0.4",
     "eslint": "^6.0.1",
     "eslint-plugin-jest": "^22.7.1",
     "jest": "^24.8.0",
@@ -42,7 +43,8 @@
     "test": "jest -c ./tests/unit.config.json --coverage",
     "test:watch": "jest -c ./tests/unit.config.json --watchAll",
     "lint": "eslint --ext .js,lib --ignore-path .gitignore .",
-    "lint:fix": "eslint --ext .js,lib --ignore-path .gitignore . --fix"
+    "lint:fix": "eslint --ext .js,lib --ignore-path .gitignore . --fix",
+    "coveralls": "jest -c ./tests/unit.config.json && cat ./coverage/lcov.info | coveralls"
   },
   "main": "./lib/blue-pencil",
   "engines": {
