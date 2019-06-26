@@ -1,3 +1,10 @@
+# blue-pencil 
+
+![Build Status](https://travis-ci.org/Myolnir/blue-pencil.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/Myolnir/blue-pencil/badge.svg?branch=master)](https://coveralls.io/github/Myolnir/blue-pencil?branch=master)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/myolnir/bubble-gum-tools/blob/master/LICENSE)
+[![David](https://img.shields.io/david/myolnir/blue-pencil.svg)](https://david-dm.org/myolnir/blue-pencil)
+
 
 # Usage
 
