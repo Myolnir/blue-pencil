@@ -5,9 +5,11 @@ describe('BluePencil tests', () => {
   const objectToCensor = {
     root: [{
       foo: 'bar',
+      name: 'john',
+      surname: 'doe',
     }],
   };
-  const valuesToHide = ['foo'];
+  const valuesToHide = ['foo', 'surname'];
 
   it('should return an error if we initialize wrongly the lib', () => {
     expect(() => new BluePencil('badConfig')).toThrow(new Error('"options" must be an object'));
@@ -27,6 +29,8 @@ describe('BluePencil tests', () => {
     const expectedObject = {
       root: [{
         foo: '******',
+        name: 'john',
+        surname: '******',
       }],
     };
     const result = myBluePencil.censor(objectToCensor, valuesToHide);
@@ -38,6 +42,8 @@ describe('BluePencil tests', () => {
     const expectedObject = {
       root: [{
         foo: '######',
+        name: 'john',
+        surname: '######',
       }],
     };
     const result = myBluePencil.censor(objectToCensor, valuesToHide);
@@ -49,6 +55,8 @@ describe('BluePencil tests', () => {
     const expectedObject = [{
       root: [{
         foo: '******',
+        name: 'john',
+        surname: '******',
       }],
     }];
     const result = myBluePencil.censor([objectToCensor], valuesToHide);
@@ -60,6 +68,8 @@ describe('BluePencil tests', () => {
     const expectedObject = [{
       root: [{
         foo: '######',
+        name: 'john',
+        surname: '######',
       }],
     }];
     const result = myBluePencil.censor([objectToCensor], valuesToHide);

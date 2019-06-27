@@ -1,5 +1,7 @@
 # blue-pencil 
 
+Mask your JSON values as of a given array of not allowed fields.
+
 ![Build Status](https://travis-ci.org/Myolnir/blue-pencil.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/Myolnir/blue-pencil/badge.svg?branch=master)](https://coveralls.io/github/Myolnir/blue-pencil?branch=master)
 [![license](https://img.shields.io/npm/l/blue-pencil.svg)](https://github.com/myolnir/blue-pencil/blob/master/LICENSE)
