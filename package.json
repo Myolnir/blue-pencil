@@ -26,7 +26,8 @@
     "url": "git+https://github.com/myolnir/blue-pencil.git"
   },
   "dependencies": {
-    "flat": "^4.1.0"
+    "flat": "^4.1.0",
+    "lodash": "^4.17.14"
   },
   "devDependencies": {
     "coveralls": "^3.0.4",
