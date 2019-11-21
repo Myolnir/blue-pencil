@@ -1,6 +1,6 @@
 {
   "name": "blue-pencil",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library to censor some given words in a given json",
   "keywords": [
     "censor",
