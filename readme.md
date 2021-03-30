@@ -47,9 +47,10 @@ Exported symbols:
   <tbody>
 <tr>
     <td>options</td><td>object</td><td></td>
-    </tr><tr>
+</tr>
+<tr>
     <td>options.wildcard</td><td>string</td><td><p>Wildcard we would like to use for the mask (e.g.: <code>#####</code>)</p></td>
-    </tr><tr>
+</tr>
 </table>
 
 <a name="module_blue-pencil"></a>
@@ -77,7 +78,7 @@ Returns the given object but with the given values masked.
     <td>objectToCensor</td><td><code>Object</code> &#124; <code>Array</code></td><td>Input data to be filtered</td>
     </tr><tr>
     <td>valuesToHide</td><td><code>Array</code></td><td><p>Elements to mask in the given object</td>
-    </tr><tr>
+    </tr>
 </table>
 
 **Example**  
@@ -100,5 +101,4 @@ const filteredObject = myBluePencil.censor(nestedObj, valuesToHide)
 ```
 
 # License
-
-MIT @ Angel Muelas Martinez
+MIT @ [Angel Muelas Martinez](https://myolnir.github.io)
